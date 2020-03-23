@@ -1,10 +1,10 @@
 {
-  "name": "zigbee2mqtt-edge",
+  "name": "zigbee2mqtt-edge-deconz",
   "version": "test",
-  "slug": "zigbee2mqtt_edge",
+  "slug": "zigbee2mqtt_edge_deconz",
   "description": "Development build of the zigbee2mqtt add-on",
   "auto_uart": true,
-  "url": "https://github.com/danielwelch/hassio-zigbee2mqtt",
+  "url": "https://github.com/arjankanis/hassio-zigbee2mqtt",
   "startup": "before",
   "arch": [
     "aarch64",
@@ -81,6 +81,7 @@
     },
     "serial": {
       "port": "str",
+      "adapter": "str",
       "disable_led": "bool?"
     },
     "ban": [
